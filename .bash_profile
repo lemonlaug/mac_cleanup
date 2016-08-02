@@ -3,7 +3,7 @@
 export PATH="/Users/datascientist/Applications/Postgres.app/Contents/Versions/9.4/bin/:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-
+export PGDATA=/Users/datascientist/Library/Application\ Support/Postgres/var    -9.4/
 
 # added by Anaconda2 2.4.1 installer
 export PATH="/Users/datascientist/anaconda2/bin:$PATH"
