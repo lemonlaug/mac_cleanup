@@ -55,3 +55,9 @@ ln -s /usr/local/spark-1.5.0-bin-hadoop1/ /usr/local/spark
 
 #get prepped for statsmodels
 xcode-select --install
+
+#blow up postgres
+rm -rf /Users/datascientist/Library/Application\ Support/Postgres/var-9.4
+postgres -D /Users/datascientist/Library/Application\ Support/Postgres/var-9.4
+createdb gSchool
+psql -d gSchool -c "\dt"
