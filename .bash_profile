@@ -1,6 +1,6 @@
 
 # added by Anaconda 2.1.0 installer
-export PATH="/Users/datascientist/Applications/Postgres.app/Contents/Versions/9.4/bin/:$PATH"
+export PATH="/Users/datascientist/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
