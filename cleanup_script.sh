@@ -7,11 +7,11 @@ rm -rf ~/Desktop/*
 echo "Clearing Downloads"
 rm -rf ~/Downloads/*
 echo "Clearing mongodb data"
-rm -rf /data/db
+sudo rm -rf /data/db
 echo "Clean up home directory"
 shopt -s extglob
 cd ~
-rm -rdf !(Applications|Library|Desktop|Documents|Downloads|Pictures|Public|mac_cleanup)
+sudo rm -rdf !(Applications|Library|Desktop|Documents|Downloads|Pictures|Public|mac_cleanup)
 cd -
 
 #update brew
